@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: #875d45;;
+}
+
+.content{
+    margin:  15% auto;
+    background-color: #b38465;
+    border-radius: 12px;
+    padding: 50px;
+}
+
+#bt{
+    text-align: center;
+}
+
+#button{
+    padding: 15px;
+    border: 0px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+#logo{
+    width: 20   0px;
+    height: 150px;
+}
