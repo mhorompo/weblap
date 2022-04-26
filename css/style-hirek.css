@@ -66,12 +66,12 @@ td{
 }
 
 li{
-    list-style-type: "♡ ";
+    list-style-type: none;
     list-style-position: outside;
     text-align: left;
-    margin-left: 50%;
-    margin-right: 10px;
-    margin-top: 10px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-top: 50px;
 }
 
 #watermark{
@@ -84,11 +84,11 @@ li{
 }
 
 .kep{
-    width: 250px;
+    width: 400px;
     height: 250px;
-    margin-left: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
     margin-top: 5px;
-    margin-right: 30px;
     margin-bottom: 50px;
     border-radius: 12px;
     border-color: #476343;
@@ -114,9 +114,23 @@ li{
 
 .hir{
     font-weight: bold;
-    margin-left: 52.5%;
+    margin-right: 10px;
     margin-top: 25px;
     font-size: larger;
+    text-align: center;
+}
+
+caption{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.datum{
+    font-size: medium;
+    float: right;
+    margin-top: 150px;
+    margin-right: 25px;
 }
 
 .mySlides {
@@ -125,6 +139,7 @@ li{
     align-items: center;
     overflow: hidden
 }
+
 img {vertical-align: middle;}
 
 .mySlides img{
