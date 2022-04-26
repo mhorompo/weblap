@@ -10,6 +10,13 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    transition: 200ms;
+}
+
+#navbar a:hover{
+    background-color: #9bcf93;
+    color: black;
+    transition: 200ms;
 }
 
 .sticky {
@@ -33,7 +40,6 @@ h1{
 body{
     margin: 0;
     background-color: #c59779;
-    background-image: url(hatter.png);
     background-repeat: repeat-y;
     background-size: cover;
     color: #523326;
@@ -82,6 +88,13 @@ li{
     left: 20px;
     color: #ffedde;
     padding-left: 20px;
+    animation: mozog 2.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes mozog {
+    0% {left: 1020px;}
+    100% {left: 20px;}
 }
 
 .kep{

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang = "hu">
 <head>
-    <meta charset = "UTF-8">
+    <meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Szegedmaganzoo</title>
     <link rel="icon" type="image/x-icon" href="pics/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <header>
     <div>
         <div class="mySlides fade">
           <img src="pics/kavezo.jpg" alt="kavezo" style="width:100%">
@@ -20,12 +22,15 @@
           <img src="pics/kaland.jpg" alt="kaland" style="width:100%">
         </div>
     </div>
+    
 
     <div id="watermark">
         <img id = "kep2" src = "pics/logocska.png" alt = "logo">
         <h1>Szegedi Magántulajdonú Állat- és Szabadidőpark</h1>
     </div>
+    </header>
 
+    <nav>
     <div id="navbar">
         <a href="hirek.html">Hírek</a>
         <a class="active" href="#">Állataink</a>
@@ -33,9 +38,11 @@
         <a href="informacio.html">Információk</a>
         <a href="profil.html">Profil</a>
     </div>
+    </nav>
 
+    <main>
     <div class="content">
-        <h2>Állataink - Nagymacskák</h2>
+        <h2><strong>Állataink - Nagymacskák</strong></h2>
     <table>
         <tr>
             <td>
@@ -220,6 +227,7 @@
         </tr>
     </table>
     </div>
+    </main>
 
     <script>
         window.onscroll = function() {menu()};

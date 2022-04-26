@@ -10,6 +10,13 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    transition: 200ms;
+}
+
+#navbar a:hover{
+    background-color: #9bcf93;
+    color: black;
+    transition: 200ms;
 }
 
 .sticky {
@@ -27,13 +34,12 @@ h1{
     font-family: Impact, fantasy;
     font-weight: lighter;
     color: #ffedde;
-    text-shadow: 3px 3px 2px#523326, 2px 2px 2px#ffedde;
+    text-shadow: 3px 3px 2px #523326, 2px 2px 2px #ffedde;
 }
 
 body{
     margin: 0;
     background-color: #c59779;
-    background-image: url(hatter.png);
     background-repeat: repeat-y;
     background-size: cover;
     color: #523326;
@@ -65,6 +71,15 @@ td{
     padding: 12px;
 }
 
+fieldset {
+    border: none;
+}
+
+hr {
+    color: #ffedde;
+    border-color: #ffedde;
+}
+
 li{
     list-style-type: none;
     list-style-position: outside;
@@ -81,6 +96,13 @@ li{
     left: 20px;
     color: #ffedde;
     padding-left: 20px;
+    animation: mozog 2.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes mozog {
+    0% {left: 1020px;}
+    100% {left: 20px;}
 }
 
 .kep{
@@ -162,6 +184,15 @@ img {vertical-align: middle;}
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+#urlap {
+    text-align: center;
+    margin-top: 3em;
+}
+
+input{
+    cursor: pointer;
 }
 
 .fade {

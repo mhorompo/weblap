@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang = "hu">
 <head>
-    <meta charset = "UTF-8">
+    <meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Szegedmaganzoo</title>
     <link rel="icon" type="image/x-icon" href="pics/favicon.ico">
     <link rel="stylesheet" href="css/style-hirek.css">
 </head>
 <body>
+    <header>
     <div>
         <div class="mySlides fade">
             <img src="pics/kavezo.jpg" alt="kavezo">
@@ -20,12 +21,14 @@
             <img src="pics/kaland.jpg" alt="kaland">
           </div>
     </div>
+    </header>
 
     <div id="watermark">
         <img id = "kep2" src = "pics/logocska.png" alt = "logo">
         <h1>Szegedi Magántulajdonú Állat- és Szabadidőpark</h1>
     </div>
 
+    <nav>
     <div id="navbar">
         <a class="active" href="#">Hírek</a>
         <a href="allataink.html">Állataink</a>
@@ -33,11 +36,13 @@
         <a href="informacio.html">Információk</a>
         <a href="profil.html">Profil</a>
     </div>
+    </nav>
 
+    <main>
     <div class="content">
         <h2>Hírek</h2>
         <table>
-            <caption>Az új kormányrendelet alapján a maszk viselése NEM kötelező, védettségi igazolvány nélkül is látogatható állatkertünk!</caption>
+            <caption>Az új kormányrendelet alapján a maszk viselése <mark>NEM</mark> kötelező, védettségi igazolvány nélkül is látogatható állatkertünk!</caption>
             <tr>
                 <td>
                     <p class = "hir">Új kiscicákat üvözölhetnek állatkertünkben</p>
@@ -74,12 +79,33 @@
                             Április 20-ig várjuk a jelentkezéseket online formában. A tábor 7 napos, ennek költsége: 20000 Ft.
                             Az ételről, italról is gondoskodunk. 😸
                         </li>
+                        <li>
+                            Önkénteseket keresünk tábotoztatásra!
+                            Ha úgy érzed benned is megvan, ahozz, hogy egy remek hangulatú táborban segíts kollégáinknak,
+                            akkor köztünk a helyed. <sub>*meglepetés ajándék az igazán ügyeseknek</sub>
+                        </li>
+                        <li>
+                            
+                            <div id="urlap">
+                            <form>
+                                <fieldset>
+                                Jelentkezz az alábbi űrlap kitöltésével! <br><br>
+                                <label for="email">Email cím: </label> <input type="email" name="email" id="email" placeholder="email@gmail.com"> <br><br>
+                                <label for="nev">Teljes név: </label> <input type="text" name="nev" id="nev" placeholder="Piska Joska"> <br><br>
+                                <label for="telefonszam">Telefonszam: </label> <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+                                </fieldset>
+                                <hr>
+                                <input type="submit" value="Jelentkezz"> <input type="reset" value="Reset"> 
+                            </form>
+                            </div>
+                        </li>
                         <p class = "datum">2022.01.22.</p>
                     </ul>
                 </td>
             </tr>
         </table>
     </div>
+    </main>
 
     <script>
         window.onscroll = function() {myFunction()};
